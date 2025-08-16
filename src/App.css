@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  border: 1px solid black;
+  height: 200px;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  display: block;
+  font-size: small;
+}
